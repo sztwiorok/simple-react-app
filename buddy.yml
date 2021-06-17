@@ -1,4 +1,4 @@
-- pipeline: "build and deliver"
+- pipeline: "build and deliver it"
   on: "CLICK"
   refs:
   - "refs/heads/main"
