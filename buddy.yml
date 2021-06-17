@@ -7,7 +7,7 @@
   priority: "NORMAL"
   fail_on_prepare_env_warning: true
   actions:
-  - action: "Build Docker image"
+  - action: "Build Docker image1"
     type: "DOCKERFILE"
     dockerfile_path: "Dockerfile"
   - action: "Publish Docker image"
