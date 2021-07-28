@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp run.sh build/run.sh",
+    "build": "react-scripts build && cp run.sh build/run.sh && cp -r octopus/ build/cotopus",
     "test": "react-scripts test",
     "cy:run": "cypress run",
     "test-e2e": "start-server-and-test start http://localhost:3000 cy:run",
