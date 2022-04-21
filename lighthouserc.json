@@ -17,7 +17,8 @@
     },
     "upload": {
       "target": "lhci",
-      "serverBaseUrl": "https://lhci.example.com"
+      "serverBaseUrl": "URL",
+      "token": "TOKEN"
     }
   }
 }
